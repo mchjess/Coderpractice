@@ -6,4 +6,7 @@ This is my first coding practice using a live net connection. I'm pretty chuffed
 - even more will now appear here as well
     - there's this too
 
+    Markdown and prettier have been installed.
+    # More
+
 ###### smaller heading
