@@ -1,0 +1,18 @@
+
+
+  /* Content box */
+.contentbox {
+    background-color: #A12815;
+    width: 500px;
+    padding: 20px;
+    border-width: 10px;
+    border-color: #495f49;
+    border-style: solid;
+  }
+
+  /*Responsive design element - stretches content box when screen width more than 500px so that the image always spans across the browser*/
+  @media screen and (min-width:600px) {
+    .contentbox {
+        width: 90%;
+    }
+  }
