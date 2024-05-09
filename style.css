@@ -16,3 +16,14 @@
         width: 90%;
     }
   }
+
+   .jaro-linetext {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Jaro", sans-serif;
+  }
