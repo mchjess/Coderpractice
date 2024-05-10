@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <title>My Page Title</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title>CoderAcademy</title>  
+</head>
+<body>
+
+    <style>
+        .fairy-img {
+          width: 300px;
+          height: 400px;
+          transition: 2s;
+        }
+
+        .fairy-img:hover {
+          width: 400px;
+          height: 500px;
+         transform: rotate(45deg)
+          animation-name: appear;
+          animation-duration: 3s;
+          }
+
+        a {
+        color: green;
+        }
+
+        a:visited {
+           color: pink;
+          
+           }
+
+         a:hover {
+         text-decoration: none;
+         animation-name: colourful-text;
+          animation-duration: 3s;
+         }
+
+         @keyframes appear {
+         0% {
+              width: 100px;
+              height: 100px;
+            }
+          50% {
+              width: 300px;
+              height: 300px;
+            }
+           100% {
+              width: 200px;
+              height: 200px;
+              } 
+            }
+        
+          @keyframes colourful-text {
+         0% {
+             color: red;
+          
+            }
+          50% {
+              color: yellow;
+             
+            }
+           100% {
+              color: blue;
+              } 
+          }
+
+    </style>
+
+    <img class="fairy-img" src="./Fairy.jpeg" alt="Fairy"/>
+    <a class="fairy-link" href="https://www.puppyspot.com/">Kiss a fairy</a>
+
+</body>
+</html>
